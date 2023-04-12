@@ -1,0 +1,136 @@
+body {
+    background-color: rgb(178, 123, 230);
+    width: 100%;
+  }
+  
+  header {
+    color: rgb(72, 200, 209);
+    text-align: center;
+  }
+  
+  .divmenu {
+    text-align: center;
+  }
+  
+  .itemmenu {
+    text-decoration: none;
+    color: bisque;
+    font-size: 2rem;
+    margin: 2% 2%;
+  }
+  .tituloprincipal {
+    font-size: 3rem;
+    background-color: yellow;
+  }
+  
+  .texto,
+  .desenhos {
+    margin: 0 20%;
+  }
+  
+  .imagemcentro {
+    background-size: cover;
+  }
+  
+  .imagem01 {
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .texto {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 1.3rem;
+    text-align: center;
+  }
+  
+  .atividades {
+    padding-top: 2rem;
+  }
+  
+  h2 {
+    font-size: 1.85rem;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+  
+  .imagensbolinha {
+    width: 18.75rem;
+    height: 18.75rem;
+    border-radius: 50%;
+    border: 0.3rem solid bisque;
+  }
+  
+  .desenhos {
+    font-size: 1.5em;
+  }
+  
+  .titulodesenho {
+    text-align: center;
+  }
+  
+  .botaoinstagram {
+    text-align: end;
+    font-weight: bold;
+    padding: 1.3rem;
+  }
+  
+  .iconeinsta {
+    width: 5rem;
+    height: 5rem;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 3rem;
+    background-color: yellow;
+  }
+  
+  @media (max-width: 430px) {
+    .tituloprincipal {
+      font-size: 1.5rem;
+      flex-direction: column;
+    }
+  
+    .imagem01 img {
+      max-width: 100%;
+      width: 100%;
+      height: auto;
+      text-align: center;
+    }
+  
+    p,
+    li {
+      font-size: 0.7rem;
+    }
+  
+    p {
+      text-align: justify;
+      line-height: 1.3;
+    }
+  
+    .itemmenu {
+      font-size: 1rem;
+      display: flex;
+      flex-direction: column;
+    }
+    .imagensbolinha {
+      width: 15rem;
+      height: 15rem;
+    }
+  
+    h2 {
+      font-size: 1rem;
+    }
+  
+    .texto {
+      margin: 0 1rem;
+    }
+  
+    .botaoinstagram {
+      text-align: center;
+    }
+  }
+  
